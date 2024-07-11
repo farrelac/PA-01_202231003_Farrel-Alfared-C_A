@@ -172,3 +172,6 @@ plt.show()
 
 ---
 
+## Teori yang Mendukung :
+
+
