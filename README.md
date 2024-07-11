@@ -169,3 +169,6 @@ plt.show()
 
 **Output 2:**
 ![alt text](https://github.com/farrelac/PA-01_202231003_Farrel-Alfared-C_A/blob/main/hasil_output/original-canny_edge_detection-contours_detection.png?raw=true)
+
+---
+
