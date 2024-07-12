@@ -174,4 +174,13 @@ plt.show()
 
 ## Teori yang Mendukung :
 
+### Metode Deteksi Tepi
+Ada beberapa metode deteksi tepi yang populer digunakan dalam pemrosesan citra:<br>
+1. **Deteksi Tepi Sobel** artinya metode ini menggunakan operator Sobel untuk menghitung perkiraan gradien intensitas gambar. Operator ini menerapkan dua kernel 3x3 (satu untuk arah horizontal dan satu untuk arah vertikal) untuk menyoroti perubahan intensitas.<br>
+2. **Deteksi Tepi Prewitt** artinya mirip dengan Sobel, tetapi menggunakan kernel yang berbeda. Operator Prewitt juga menghitung gradien gambar untuk mendeteksi tepi.<br>
+3. **Deteksi Tepi Canny** artinya metode ini dianggap sebagai salah satu algoritma deteksi tepi terbaik. Prosesnya melibatkan beberapa langkah: perataan gambar menggunakan filter Gaussian, perhitungan gradien intensitas, non-maximum suppression, dan histeresis thresholding. Hasilnya adalah deteksi tepi yang lebih akurat dan berkurangnya jumlah tepi palsu.
+4. **Deteksi Tepi Laplacian** artinya metode ini menggunakan operator Laplacian untuk mendeteksi tepi berdasarkan kedua turunan dari intensitas gambar. Ini sensitif terhadap kebisingan dan sering dikombinasikan dengan filter Gaussian untuk mengurangi kebisingan sebelum penerapan operator Laplacian.
+
+### Proses Deteksi Tepi
+Langkah-langkah umum dalam deteksi tepi adalah sebagai berikut:
 
