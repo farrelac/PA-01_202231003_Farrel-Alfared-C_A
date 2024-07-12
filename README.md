@@ -65,8 +65,6 @@ cv2.drawContours(image_contours, contours, -1, (0, 255, 0), 2)
 image = cv2.imread('mypic.jpg')
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-edges = cv2.Canny(image, 100, 200)
-
 contours, _ = cv2.findContours(edges, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 image_contours = image_rgb.copy()
 cv2.drawContours(image_contours, contours, -1, (0, 255, 0), 2)
