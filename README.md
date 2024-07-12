@@ -183,4 +183,16 @@ Ada beberapa metode deteksi tepi yang populer digunakan dalam pemrosesan citra:<
 
 ### Proses Deteksi Tepi
 Langkah-langkah umum dalam deteksi tepi adalah sebagai berikut:
+1. **Perataan Gambar** artinya menggunakan filter Gaussian untuk mengurangi kebisingan dalam gambar. Kebisingan dapat menyebabkan deteksi tepi palsu, sehingga perataan awal itu penting.<br>
+2. **Perhitungan Gradien** artinya menggunakan operator seperti Sobel atau Prewitt untuk menghitung gradien intensitas gambar. Gradien ini menunjukkan perubahan intensitas dan membantu dalam mendeteksi tepi.<br>
+3. **Penentuan Tepi** artinya menerapkan threshold untuk menentukan apakah perubahan intensitas cukup signifikan untuk dianggap sebagai tepi.<br>
+4. **Pelacakan Tepi** artinya menghubungkan piksel tepi yang terdeteksi untuk membentuk garis atau kontur yang lebih lengkap.
+
+### Implementasi Deteksi Tepi
+Deteksi tepi bisa digunakan dalam berbagai implementasi contohnya seperti di bawah ini:
+
+a) Segmentasi citra yang mana memisahkan objek dari latar belakang atau memisahkan objek yang berbeda dalam gambar.
+b) Pengenalan pola maksudnya adalah mengidentifikasi objek berdasarkan bentuk dan kontur.
+c) Pelacakan objek berarti mengikuti pergerakan objek dalam urutan gambar atau video.
+d) Penginderaan jarak jauh artinya menganalisis citra satelit untuk mendeteksi fitur geografis atau struktur buatan manusia.
 
