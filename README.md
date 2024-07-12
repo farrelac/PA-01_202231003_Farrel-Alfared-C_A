@@ -191,8 +191,8 @@ Langkah-langkah umum dalam deteksi tepi adalah sebagai berikut:
 ### Implementasi Deteksi Tepi
 Deteksi tepi bisa digunakan dalam berbagai implementasi contohnya seperti di bawah ini:
 
-a) Segmentasi citra yang mana memisahkan objek dari latar belakang atau memisahkan objek yang berbeda dalam gambar.
-b) Pengenalan pola maksudnya adalah mengidentifikasi objek berdasarkan bentuk dan kontur.
-c) Pelacakan objek berarti mengikuti pergerakan objek dalam urutan gambar atau video.
+a) Segmentasi citra yang mana memisahkan objek dari latar belakang atau memisahkan objek yang berbeda dalam gambar.<br>
+b) Pengenalan pola maksudnya adalah mengidentifikasi objek berdasarkan bentuk dan kontur.<br>
+c) Pelacakan objek berarti mengikuti pergerakan objek dalam urutan gambar atau video.<br>
 d) Penginderaan jarak jauh artinya menganalisis citra satelit untuk mendeteksi fitur geografis atau struktur buatan manusia.
 
