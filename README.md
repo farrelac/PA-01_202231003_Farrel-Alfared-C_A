@@ -138,7 +138,7 @@ plt.show()
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hasil output dari kode ini adalah jendela gambar (plt.show()) yang menampilkan kedua subplot secara bersamaan. Subplot pertama menampilkan gambar asli dalam warna, sementara subplot kedua menampilkan gambar yang telah diproses dengan deteksi tepi Canny dalam skala abu-abu. Ini memungkinkan perbandingan visual antara gambar asli dan hasil deteksi tepi, membantu dalam analisis visual dan pemrosesan gambar. Kedua gambar berikut juga akan menampilkan sumbu koordinat dari x dan y menggunakan plt.axis('on').<br>
 
 **Output 1:**
-![alt text](https://github.com/farrelac/PA-01_202231003_Farrel-Alfared-C_A/blob/main/hasil_output/original-canny_edge_detection.png?raw=true)
+![alt text](https://github.com/farrelac/PA-PC_202231003_Farrel-Alfared-C_A/blob/main/pictures/original-canny_edge_detection.png?raw=true)
 
 ### - Menggabungkan hasil citra dalam satu gambar (Output 2)
 ```
@@ -166,7 +166,7 @@ plt.show()
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setiap subplot ditampilkan dengan sumbu (axis) yang aktif dan keseluruhan gambar ditampilkan dengan ukuran figur yang lebarnya (15 inch lebar x 5 inch tinggi). Hasil outputnya adalah tiga gambar berdampingan untuk mempermudah analisis visual terhadap perubahan yang terjadi pada citra setelah pemrosesan.<br>
 
 **Output 2:**
-![alt text](https://github.com/farrelac/PA-01_202231003_Farrel-Alfared-C_A/blob/main/hasil_output/original-canny_edge_detection-contours_detection.png?raw=true)
+![alt text](https://github.com/farrelac/PA-PC_202231003_Farrel-Alfared-C_A/blob/main/pictures/original-canny_edge_detection-contours_detection.png?raw=true)
 
 ---
 
